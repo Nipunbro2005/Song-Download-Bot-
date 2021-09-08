@@ -1,6 +1,6 @@
 # SD Song Bot
 ##  🎹 A telegram bot that can download songs 🎸
-### Reach me on Telegram [🎹 Song Download Bot 🎸](https://t.me/musicdownload1bot)
+### Reach me on Telegram [🎹 Song Download Bot 🎸](http://t.me/songdownload597_bot)
 <p align="center">
   <img src="https://socialify.git.ci/Dinuraofficial/SD-SongBot/image?description=1&descriptionEditable=A%20%20Telegram%20Bot%20Witch%20can%20Download%20songs%20&font=Inter&forks=1&issues=1&language=1&logo=https%3A%2F%2Ftelegra.ph%2Ffile%2Fef5556aa53f02f730eb05.jpg&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark">
 
@@ -24,5 +24,5 @@ Ex : `/song Stitches`<img src="https://camo.githubusercontent.com/2c8b3670d93322
                                        
                                        
 ### Developer:
-[N.M.Dinura Uthsara Nikalansuriya](https://t.me/Dinuranikalansuriya)
+[Sanila Ranatunga](https://t.me/SanilaRanatunga)
 
