@@ -10,7 +10,8 @@ from SDSongBot import LOGGER
 pm_start_text = """
 Hey [{}](tg://user?id={}), I'm Song Downloader Bot 🎵
 😉 Just send me the song name you want to download.😋
-      eg:```/song Stitches```
+      eg:```/song Faded```
+      eg:```/song Moonlight```
       
 A bot by @SanilaRanatunga
 """
@@ -25,10 +26,10 @@ async def start(client, message):
             [
                 [
                      InlineKeyboardButton(
-                        text="Channel 🔊", url="https://t.me/SanilaRanatunga"
+                        text="Dev🔥 🔊", url="https://t.me/SanilaRanatunga"
                     ),
                     InlineKeyboardButton(
-                        text="Dev 🔥", url="https://t.me/SanilaRanatunga"
+                        text="Report Bugs", url="https://t.me/SanilaRanatunga"
                     )
                 ]
             ]
