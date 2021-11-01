@@ -22,18 +22,13 @@ async def start(client, message):
     user_id = message.from_user["id"]
     name = message.from_user["first_name"]
     if message.chat.type == "private":
-        btn = InlineKeyboardMarkup(
-            [
-                [
-                     InlineKeyboardButton(
-                        text="Dev🔥 🔊", url="https://t.me/SanilaRanatunga"
-                    ),
-                    InlineKeyboardButton(
-                        text="Report Bugs", url="https://t.me/SanilaRanatunga"
-                    )
-                ]
-            ]
-        )
+        joinButton = InlineKeyboardMarkup([
+        [InlineKeyboardButton("Owner", url="https://t.me/SanilaRanatunga")],
+        [InlineKeyboardButton(
+            "Report Bugs 😊", url="https://t.me/SanilaRanatunga")],
+         [InlineKeyboardButton("Torrent Downloader", url="https://t.me/torrentdownloader88_bot")],
+        [InlineKeyboardButton("Source Code", url="https://github.com/sanila2007/Song-Download-Bot-")],
+        [InlineKeyboardButton("Powerful Chat Bot", url="https://t.me/useful_powerful_chat_bot")]
     else:
         btn = None
     await message.reply(pm_start_text.format(name, user_id), reply_markup=btn)
