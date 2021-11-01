@@ -29,6 +29,7 @@ async def start(client, message):
          [InlineKeyboardButton("Torrent Downloader", url="https://t.me/torrentdownloader88_bot")],
         [InlineKeyboardButton("Source Code", url="https://github.com/sanila2007/Song-Download-Bot-")],
         [InlineKeyboardButton("Powerful Chat Bot", url="https://t.me/useful_powerful_chat_bot")]
+        ])
     else:
         btn = None
     await message.reply(pm_start_text.format(name, user_id), reply_markup=btn)
