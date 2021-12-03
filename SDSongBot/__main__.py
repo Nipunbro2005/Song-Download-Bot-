@@ -13,7 +13,7 @@ Just send me the song name you want to download.🤖
       eg:```/song Faded```
       eg:```/song Moonlight```
       
-A bot by @SanilaRanatunga✨️
+A bot by @SanilaRanatunga✨️✨️
 """
 
 @app.on_message(filters.command("start"))
@@ -30,7 +30,7 @@ async def start(client, message):
                         text="Report Bugs😊", url="https://t.me/sanilaassistant_bot"
                     ),
                      InlineKeyboardButton(
-                        text="Source Code🚥", url="https://github.com/Dineth490/Song-Download-Bot-"
+                        text="Source Code🚥", url="https://github.com/sanila2007/Song-Download-Bot-"
                     )
                 ]
             ]
