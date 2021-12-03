@@ -44,11 +44,11 @@ def song(client, message):
 
     except Exception as e:
         m.edit(
-            "❌ Found Nothing.\n\nTry another keywork or maybe spell it properly."
+            "❌ Found Nothing.\n\nTry another keywork or maybe spell it properly or report here👉 @sanilaassistant_bot"
         )
         print(str(e))
         return
-    m.edit("📥 Downloading the song by @SanilaRanatunga 📥")
+    m.edit("✨️Your song is currently been downloading✨️")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
@@ -62,7 +62,7 @@ def song(client, message):
         s = message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit('❌ Error')
+        m.edit('❌ Error\nReport this problem👇/n@sanilaassistant_bot')
         print(e)
 
     try:
