@@ -10,8 +10,8 @@ from SDSongBot import LOGGER
 pm_start_text = """
 Hey [{}](tg://user?id={}), I'm Song Downloader Bot🎵
 Just send me the song name you want to download.🤖
-      eg:```/song Faded```
-      eg:```/song Moonlight```
+      eg: ```/song Faded```
+      eg: ```/song Moonlight```
       
 A bot by @SanilaRanatunga✨️✨️
 """
